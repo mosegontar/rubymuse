@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.datamuse.com/words?ml=velleity&sp=d*
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-transform, max-age=86400
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 09 Aug 2017 12:40:16 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '167'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"word":"desire","score":51421,"tags":["n"]},{"word":"dysbulia","score":51418,"tags":["n"]},{"word":"desireful","score":51411,"tags":["n"]},{"word":"desirousness","score":51404,"tags":["n"]},{"word":"disposedness","score":51383,"tags":["n"]},{"word":"dareful","score":51374,"tags":["n"]},{"word":"destiny","score":51360,"tags":["n"]},{"word":"diversivolent","score":51333,"tags":["n"]},{"word":"destinist","score":51331,"tags":["n"]},{"word":"doubt","score":5304,"tags":["n","v"]}]'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 12:40:16 GMT
+recorded_with: VCR 3.0.3
