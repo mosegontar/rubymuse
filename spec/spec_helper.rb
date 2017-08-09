@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "webmock/rspec"
 require "rubymuse"
+require "vcr"
 
 WebMock.disable_net_connect!(allow_localhost: true)
 
@@ -16,3 +17,8 @@ RSpec.configure do |config|
   end
 end
 
+VCR.configure do |c|
+  c.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  c.hook_into :webmock
+  c.ignore_hosts '12.0.0.1', 'localhost'
+end
