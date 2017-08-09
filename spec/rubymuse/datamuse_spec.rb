@@ -13,7 +13,7 @@ RSpec.describe Datamuse do
     context "with 'ml' param" do
       it "returns Hash" do
         VCR.use_cassette('ml_velleity') do
-          expect(Datamuse.words(ml: 'velleity').size).to be > 0
+          expect(Datamuse.words(ml: 'velleity')[0]['word']).to eql('wish')
         end
       end
     end
