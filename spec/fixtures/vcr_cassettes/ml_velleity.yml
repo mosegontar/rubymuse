@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.datamuse.com/words?ml=velleity
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-transform, max-age=86400
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 09 Aug 2017 04:09:37 GMT
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '960'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"word":"wish","score":51424,"tags":["n"]},{"word":"woulding","score":51423,"tags":["n"]},{"word":"appetition","score":51422,"tags":["n"]},{"word":"desire","score":51421,"tags":["n"]},{"word":"ambition","score":51420,"tags":["n"]},{"word":"volition","score":51419,"tags":["n"]},{"word":"dysbulia","score":51418,"tags":["n"]},{"word":"pleonexia","score":51417,"tags":["n"]},{"word":"whim","score":51416,"tags":["n"]},{"word":"whimling","score":51415,"tags":["n"]},{"word":"wishedly","score":51414,"tags":["n"]},{"word":"whimmy","score":51413,"tags":["n","prop"]},{"word":"optate","score":51412,"tags":["n"]},{"word":"desireful","score":51411,"tags":["n"]},{"word":"inclination","score":51410,"tags":["n"]},{"word":"aspiration","score":51409,"tags":["n"]},{"word":"impulsor","score":51408,"tags":["n"]},{"word":"prevenancy","score":51407,"tags":["n"]},{"word":"esurience","score":51406,"tags":["n"]},{"word":"lickerous","score":51405,"tags":["n"]},{"word":"desirousness","score":51404,"tags":["n"]},{"word":"imagination","score":51403,"tags":["n"]},{"word":"forewish","score":51402,"tags":["n"]},{"word":"ambitionist","score":51401,"tags":["n"]},{"word":"volitive","score":51400,"tags":["n"]},{"word":"proclivity","score":51399,"tags":["n"]},{"word":"misimagination","score":51398,"tags":["n"]},{"word":"sanguineness","score":51397,"tags":["n"]},{"word":"carnivoracity","score":51396,"tags":["n"]},{"word":"wishly","score":51395,"tags":["n"]},{"word":"willpower","score":51394,"tags":["n"]},{"word":"figary","score":51393,"tags":["n"]},{"word":"suppliance","score":51392,"tags":["n"]},{"word":"impulse","score":51391,"tags":["n"]},{"word":"edacious","score":51390,"tags":["n"]},{"word":"instinct","score":51389,"tags":["n"]},{"word":"uraniscus","score":51388,"tags":["n"]},{"word":"optation","score":51387,"tags":["n"]},{"word":"misincline","score":51386,"tags":["n"]},{"word":"outdream","score":51385,"tags":["n"]},{"word":"onomatomania","score":51384,"tags":["n"]},{"word":"disposedness","score":51383,"tags":["n"]},{"word":"propensity","score":51382,"tags":["n"]},{"word":"libidinosity","score":51381,"tags":["n"]},{"word":"inhabitativeness","score":51379,"tags":["n"]},{"word":"libidinousness","score":51378,"tags":["n"]},{"word":"temptingness","score":51377,"tags":["n"]},{"word":"limosis","score":51376,"tags":["n"]},{"word":"gratification","score":51375,"tags":["n"]},{"word":"dareful","score":51374,"tags":["n"]},{"word":"theopneusted","score":51373,"tags":["n"]},{"word":"forthink","score":51372,"tags":["n"]},{"word":"thedom","score":51371,"tags":["n","prop"]},{"word":"oniomania","score":51370,"tags":["n"]},{"word":"boutade","score":51369,"tags":["n"]},{"word":"intention","score":51368,"tags":["n"]},{"word":"mettlesomeness","score":51367,"tags":["n"]},{"word":"beseechment","score":51366,"tags":["n"]},{"word":"have
+        in mind","score":51365,"tags":["n"]},{"word":"presignify","score":51364,"tags":["n"]},{"word":"preconceit","score":51363,"tags":["n"]},{"word":"acrasy","score":51362,"tags":["n"]},{"word":"lust","score":51361,"tags":["n"]},{"word":"destiny","score":51360,"tags":["n"]},{"word":"weasy","score":51359,"tags":["n"]},{"word":"foresignify","score":51358,"tags":["n"]},{"word":"hanker","score":51357,"tags":["n"]},{"word":"fortunateness","score":51356,"tags":["n"]},{"word":"beseek","score":51355,"tags":["n"]},{"word":"petalism","score":51354,"tags":["n"]},{"word":"entheal","score":51353,"tags":["n"]},{"word":"michelangelesque","score":51352,"tags":["n"]},{"word":"amativeness","score":51351,"tags":["n"]},{"word":"acturience","score":51350,"tags":["n"]},{"word":"aspiratory","score":51349,"tags":["n"]},{"word":"lustless","score":51348,"tags":["n"]},{"word":"misfare","score":51347,"tags":["n"]},{"word":"grassation","score":51346,"tags":["n"]},{"word":"greed","score":51345,"tags":["n"]},{"word":"aesthesodic","score":51344,"tags":["n"]},{"word":"predilection","score":51343,"tags":["n"]},{"word":"insoul","score":51342,"tags":["n"]},{"word":"passion","score":51341,"tags":["n"]},{"word":"admirative","score":51340,"tags":["n"]},{"word":"wegotism","score":51339,"tags":["n"]},{"word":"esurine","score":51338,"tags":["n"]},{"word":"propense","score":51337,"tags":["n"]},{"word":"imploration","score":51336,"tags":["n"]},{"word":"inspirationist","score":51335,"tags":["n"]},{"word":"insatiableness","score":51334,"tags":["n"]},{"word":"diversivolent","score":51333,"tags":["n"]},{"word":"misericorde","score":51332,"tags":["n"]},{"word":"destinist","score":51331,"tags":["n"]},{"word":"inspirable","score":51330,"tags":["n"]},{"word":"advertency","score":51329,"tags":["n"]},{"word":"natiform","score":51328,"tags":["n"]},{"word":"precogitate","score":51327,"tags":["n"]},{"word":"mercify","score":51326,"tags":["n"]},{"word":"affectuous","score":51325,"tags":["n"]},{"word":"greatness","score":51324,"tags":["n"]}]'
+    http_version: 
+  recorded_at: Wed, 09 Aug 2017 04:09:37 GMT
+recorded_with: VCR 3.0.3

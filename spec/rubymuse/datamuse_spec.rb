@@ -1,13 +1,21 @@
 require "spec_helper"
 
 RSpec.describe Datamuse do
-  describe "#words" do
-    before(:each) do
-      @datamuse = Datamuse.new
+  describe ".words" do
+
+    it "returns an empty list when passed zero parameters" do
+      VCR.use_cassette('no_parameters') do
+        expect(Datamuse.words).to be_an_instance_of(Array)
+        expect(Datamuse.words.size).to eql(0)
+      end
     end
 
-    it "returns an empty list when not passed args" do
-      expect(@datamuse.words).to be_an_instance_of(Array)
+    context "with 'ml' param" do
+      it "returns Hash" do
+        VCR.use_cassette('ml_velleity') do
+          expect(Datamuse.words(ml: 'velleity').size).to be > 0
+        end
+      end
     end
   end
 end
