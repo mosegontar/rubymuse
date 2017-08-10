@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Ruby wrapper for Datamuse api}
   spec.description   = %q{Provides a lightweight Ruby wrapper for the Datamuse API.
   Datamuse query parameters are passed to the endpoint method as keyword arguments}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/mosegontar/rubymuse"
   spec.license       = "MIT"
 
 
