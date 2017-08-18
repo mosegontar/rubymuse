@@ -21,13 +21,13 @@ Or install it yourself as:
 
 ## Usage
 
-Currently, Rubymuse only supports Datamuse's primary endpoint: /words. To construct queries, pass query parameters as keyword arguments to `Datamuse#words`.
+To construct queries, pass query parameters as keyword arguments to `Datamuse#words`.
 
 ```ruby
 require('rubymuse')
 
-# Find words with a meaning similar to the word 'programming'.
-Datamuse.words(ml: `programming`)
+# Find words with a meaning similar to the word 'programming'
+Datamuse.words(ml: 'programming')
 
 # Find words with a meaning similiar to the word 'programming' and related to the topic 'television'
 Datamuse.words(ml: 'programming', topics: 'television') 
@@ -35,7 +35,15 @@ Datamuse.words(ml: 'programming', topics: 'television')
 # Find words that rhyme with 'orange'
 Datamuse.words(rel_rhy: 'orange')
 
+# Find suggested words based on partial string 'prog'
+Datamuse.sug(s: 'prog')
+
+# Find suggested words in Spanish based on partial string 'prog'
+Datamuse.sug(s: 'prog', v: 'es')
+
 ```
+
+See [Datamuse API](http://www.datamuse.com/api/) for full documentation on Datamuse's query parameters and options.
 
 ## Contributing
 
