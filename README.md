@@ -21,7 +21,7 @@ Or install it yourself as:
 
 ## Usage
 
-To construct queries, pass query parameters as keyword arguments to `Datamuse#words`.
+To construct queries, pass query parameters as keyword arguments to `Datamuse::words`.
 
 ```ruby
 require('rubymuse')
